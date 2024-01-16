@@ -1,0 +1,188 @@
+body{
+    background-color:aliceblue;
+}
+.card__box {
+    width: 350px;
+    height: 500px;
+    background-color: cadetblue;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    background-image: url(https://sotni.ru/wp-content/uploads/2023/08/abstraktsiia-treugolniki-15.webp);
+}
+.card__box-username {
+    width: 340px;
+    height: 25px;
+}
+.perestation__pincode {
+    width: 340px;
+    height: 25px;
+
+}
+.card__box-button {
+
+    width: 250px;
+    height: 25px;
+}
+.card__Demo-left{
+
+}
+.card__Demo{
+    padding: 15px;
+    width: 300px;
+    height: 450px;
+    border: 2px solid #000000;
+    box-shadow: #000 2px 2px;
+    display: flex;
+    border-radius: 10px 0px 10px 0px ;
+    justify-content: center;
+    align-items: center;
+    background-color:#2b292992 ;
+}
+.card-ofther-pin{
+
+}
+
+.card-ofther-text{
+    color: #fff;
+    text-shadow: #000 2px 2px;
+    font-size: 25px;
+}
+.card-ofther-pin{
+    color: #fff;
+    text-shadow: #000 2px 2px;
+    font-size: 25px;
+}
+.card-other-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.card__demo-bottom {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.card__demo-bottom-text {
+    color: #fff;
+    font-size: 15px;
+    text-shadow: #000 1px 1px;
+}
+.card__demo-bottom-input {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+.card__demo-input{
+    width:  200px;
+    color: #fff;
+    border: 2px solid #000000;
+    
+}
+.card__demo-input2{
+    margin-top: 5px;
+    width:  164px;
+    border: 2px solid #000000;
+}
+.card-ofther-img{
+    width: 50px;
+    height: 50px;
+}
+.card-other{
+    margin-left: 200px;
+    display:flex ;
+    justify-content: space-between;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;    
+    background-color: #2b292992;
+    align-items: center;
+    border: 2px solid #000;
+}
+.card-other-left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    align-items: center;
+}
+.card-other-right{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.card-ofther-main-text{
+    color: #fff;
+    font-size: 40px;
+    text-shadow: #000 2px 2px ;
+    
+}
+.header {
+    align-items: center;
+    max-width: 3000px;
+    display: flex;
+    background-color: rgb(87, 91, 95);
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.header__left {
+    background-color: #2b292992;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.header__left-home {
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 40px;
+    color: #fff; ;
+    text-shadow: #000 2px 2px;
+}
+.header__left-history{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 40px;
+    color: #fff; ;
+    text-shadow: #000 2px 2px;
+}
+.header__left-card {
+    text-decoration: none;
+    font-size: 40px;
+    color: #fff; ;
+    text-shadow: #000 2px 2px;
+}
+.card-other-right-number{
+    color: #fff ;
+    font-size: 25px;
+    margin-top: 50px;
+    text-shadow: #000 2px 2px;
+}
+.header__right {
+}
+.header__right-img {
+    margin-right: 75px;
+    width: 175px;
+    height: 175px;
+}
+.card-other-main-box-img{
+    width: 125px;
+}
+.card-other-main-box{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.card__Demo-left-texth1{
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff; ;
+    text-shadow: #000 2px 2px;
+}

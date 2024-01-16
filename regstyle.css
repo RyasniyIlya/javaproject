@@ -1,0 +1,179 @@
+.regestation__box{
+width: 400px;
+margin: 0 auto;
+background-color: #2b292992;
+border: 2px solid #000000;
+box-shadow: 0 0 5px #2cbf8682 ; 
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 5px  ;
+margin-top: 50px;
+padding: 10px;
+}
+.regestation__h1{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px  #000;
+
+}
+body{
+    background-color: aliceblue;
+}
+.registration__username{
+
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+}
+.perestation__email {
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+}
+.perestation__password {
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+}
+.perestation__tel {
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+}
+.rerestation__button {
+    margin-top: 30px;
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.TEXT{
+    font-size: 100px;
+    animation: Text 1s linear infinite alternate ;
+    transition: 1s;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(67, 212, 212, 0.192);
+    top: 1px;
+    opacity: 0;
+
+}
+@keyframes Text{
+    0%{
+        color: red;
+    }
+    
+}
+body{
+    overflow: hidden;
+}
+.TEXT.tuck{
+    opacity: 1;
+}
+.header {
+    background-color: rgb(87, 91, 95);
+    align-items: center;
+    max-width: 3000px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__left {
+    background-color: #2b292992;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.header__left-home {
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 40px;
+    color: #fff; ;
+    text-shadow: #000 2px 2px;
+}
+.header__left-history{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 40px;
+    color: #fff; ;
+    text-shadow: #000 2px 2px;
+}
+.header__left-card {
+    text-decoration: none;
+    font-size: 40px;
+    color: #fff; ;
+    text-shadow: #000 2px 2px;
+}
+.header__right {
+}
+.header__right-img {
+    margin-right: 75px;
+    width: 175px;
+    height: 175px;
+}
+.{
+font-size: 50px;
+color: ;
+}
+.regestation__h1-span {
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: rainbow 20s ease infinite;
+    animation: rainbow 20s ease infinite;
+    font-size: 65px;
+    line-height: 25px;
+
+  }
+   
+  @-webkit-keyframes rainbow {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+  }
+   
+  @keyframes rainbow {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+  }
+  .regestation__h1-box{
+    background-color: #2b292992;
+    padding: 30px 30px;
+    height: 50px;
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 50px;
+}
